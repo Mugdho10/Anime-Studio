@@ -39,8 +39,12 @@ h1 {
     margin: 0;
 }
 
+.navbar-brand {
+    margin-right: 0;
+}
+
 .title-logo {
-    width: 30%;
+    width: 200px;
     padding-top: 2%;
 }
 
@@ -77,6 +81,8 @@ p {
 #popular {
     background-color: #006769;
     padding-bottom: 5%;
+    position: relative;
+    z-index: 1;
 }
 
 .most-popular {
@@ -94,6 +100,11 @@ p {
 
 .anime-logo {
     width: 70%;
+}
+
+.anime-logo:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
 }
 
 .anime-logo-header {
