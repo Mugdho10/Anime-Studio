@@ -1,7 +1,53 @@
 h1 {
     color: #85E6C5;
+    font-family: "Play", sans-serif;
+    line-height: 1.5;
+    size: 3rem;
+    font-weight: 700;
+    padding-bottom: 20%;
 }
+
+
 
 #title {
     background-color: #003C43;
+}
+
+
+
+.btn {
+    padding: 2% 8%;
+}
+
+.download-button {
+    margin: 5% 5% 5% 3%;
+}
+
+.container-fluid {
+    padding: 3% 15% 3% 10%;
+}
+
+.Logo {
+    padding: 15% 15% 15% 0;
+}
+
+.navbar {
+    padding: 0 10% 10% 10%;
+}
+
+
+.nav-item {
+    padding: 0 5%;
+}
+
+.nav-link {
+    font-family: "Montserrat-Light", sans-serif;
+    font-size: 1.2rem;
+}
+
+.title-image {
+    width: 50%;
+    transform: rotate(25deg);
+    margin-left: 40%;
+    margin-top: 20%;
 }
