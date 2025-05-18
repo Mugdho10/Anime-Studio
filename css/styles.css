@@ -82,16 +82,15 @@ p {
     background-color: #006769;
     padding-bottom: 5%;
     position: relative;
-    z-index: 1;
 }
 
-.most-popular {
+.options {
     color: #85E6C5;
     font-family: "Play", sans-serif;
     font-size: 4rem;
     font-weight: 700;
     text-align: center;
-    padding: 5% 0 2% 0;
+    padding: 3% 0 2% 0;
 }
 
 .row {
@@ -139,4 +138,37 @@ p {
     width: 50%;
     margin-bottom: 0%;
     margin-top: 0%;
+}
+
+
+
+/* <!-- TV Series --> */
+
+
+
+h2 {
+    font-family: "Montserrat-bold ", sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+}
+
+
+#tv-series {
+    background-color: #003C43;
+    padding: 3% 15%;
+    text-align: center;
+    color: #fff;
+}
+
+.carousel-item {
+    padding: 0 5%;
+}
+ 
+.tv-series-gif {
+    width: 80%;
+    padding: 0 5%;
+}
+
+.series-intro {
+    padding: 3% 10% 5% 10%;
 }
