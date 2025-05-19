@@ -8,7 +8,7 @@ h1 {
     line-height: 1.5;
     size: 3rem;
     font-weight: 700;
-    padding-bottom: 20%;
+    padding-bottom: 5%;
 }
 
 
@@ -16,6 +16,7 @@ h1 {
 
 #title {
     background-color: #003C43;
+    padding-bottom: 5%;
 }
 
 .btn {
@@ -23,19 +24,19 @@ h1 {
 }
 
 .download-button {
-    margin: 5% 5% 5% 3%;
+    margin: 0% 3% 0% 3%;
 }
 
 .container-fluid {
-    padding: 2% 15% 3% 10%;
+    padding: 2% 10% 3% 10%;
 }
 
 .Logo {
-    padding: 15% 15% 15% 0;
+    padding: 0% 10% 5% 0;
 }
 
 .navbar {
-    padding: 0 10% 10% 0;
+    padding: 0 10% 5% 0;
     margin: 0;
 }
 
@@ -57,11 +58,13 @@ h1 {
     font-size: 1.2rem;
 }
 
+
 .title-image {
-    width: 60%;
+    width: 20%;
     transform: rotate(25deg);
-    margin-left: 33%;
-    margin-top: 20%;
+    margin-left: 10%;
+    margin-top: 3.5%;
+    position: absolute;
 }
 
 
@@ -82,7 +85,7 @@ p {
 
 #popular {
     background-color: #006769;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     position: relative;
 }
 
@@ -90,9 +93,9 @@ p {
     color: #85E6C5;
     font-family: "Play", sans-serif;
     font-size: 4rem;
-    font-weight: 700;
+    font-weight: 600;
     text-align: center;
-    padding: 3% 0 2% 0;
+    padding: 1% 0 1% 0;
 }
 
 .row {
@@ -110,7 +113,7 @@ p {
 
 .anime-logo-header {
     text-align: center;
-    margin: 30% auto 30% auto;
+    margin: 15% auto 15% auto;
 }
 
 .anime-logo-details {
@@ -157,9 +160,13 @@ h2 {
 
 #tv-series {
     background-color: #003C43;
-    padding: 3% 15%;
+    padding: 1% 15% 0 15%;
     text-align: center;
     color: #fff;
+}
+
+.tv-series {
+    padding-bottom: 0;
 }
 
 .carousel-item {
@@ -167,7 +174,7 @@ h2 {
 }
 
 .tv-series-gif {
-    width: 80%;
+    width: 70%;
     padding: 0 5%;
 }
 
@@ -181,7 +188,7 @@ h2 {
 
 #pricing {
     background-color: #006769;
-    padding: 3% 15%;
+    padding: 3% 15% 0 15%;
     text-align: center;
     color: #fff;
 }
@@ -219,6 +226,7 @@ h2 {
 
 .features-mobile {
     color: black;
+    font-size: 0.8rem;
     font-weight: 1;
 }
 
