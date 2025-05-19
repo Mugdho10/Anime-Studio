@@ -249,3 +249,52 @@ h2 {
     background-image: -o-linear-gradient(top, #ede8b9, #a8a49f);
     background-image: linear-gradient(to bottom, #ede8b9, #a8a49f);
 }
+
+
+@media (max-width: 1000px) {
+    
+    #title {
+        padding-bottom: 2%;
+    }
+    
+    .title-image {
+        width: 40%;
+        margin-left: 30%;
+        margin-top: 10%;
+        position: relative;
+        text-align: center;
+    }
+
+    .Logo {
+        text-align: center;
+        padding: 0 0 0 7%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+        padding-bottom: 3%;
+        text-align: center;
+    }
+
+    .anime-logo {
+        width: 70%;
+        text-align: center;
+    }
+
+    .SL {
+        margin-bottom: 1%;
+        width: 45%;
+    }
+
+    .tv-series-gif {
+        width: 100%;
+    }
+
+    .btn-block {
+        padding: 0 10%;
+    }
+
+    .features-mobile {
+        font-size: 1rem;
+    }
+}
