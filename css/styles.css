@@ -28,7 +28,7 @@ h1 {
 }
 
 .container-fluid {
-    padding: 2% 10% 3% 10%;
+    padding: 0;
 }
 
 .Logo {
@@ -36,12 +36,28 @@ h1 {
 }
 
 .navbar {
-    padding: 0 10% 5% 0;
+    padding: 1% 25% 1% 7%;
     margin: 0;
+    position: fixed;
+    background-color: #003C43;  
+    z-index: 1;
 }
 
 .navbar-brand {
     margin-right: 0;
+}
+
+.navbar-collapse {
+    margin-left: 320PX;
+}
+
+.title-row {
+    padding-top: 110px;
+    padding: 100px auto auto 50px;
+}
+
+.intro {
+    padding-left: 150px;
 }
 
 .title-logo {
@@ -173,6 +189,12 @@ h2 {
     padding: 0 5%;
 }
 
+.carousel-item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    padding-top: 4%;
+}
+
 .tv-series-gif {
     width: 70%;
     padding: 0 5%;
@@ -188,7 +210,7 @@ h2 {
 
 #pricing {
     background-color: #006769;
-    padding: 3% 15% 0 15%;
+    padding: 3% 15% 2% 15%;
     text-align: center;
     color: #fff;
 }
@@ -215,9 +237,17 @@ h2 {
     padding-bottom: 5%;
 }
 
+.pricing-box:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    padding-top: 4%;
+}
+
 .card-header {
     background-color: #003C43;
 }
+
+
 
 .btn-block {
     padding: 0 25%;
@@ -254,12 +284,43 @@ h2 {
 @media (max-width: 1000px) {
     
     #title {
-        padding-bottom: 80%;
+        padding: 0;
+    }
+
+    .container-fluid {
+        padding: 0;
+    }
+
+    .navbar {
+        padding: 20px 70px 20px 80px;
+        position: fixed;
+        background-color: #003C43;
+        z-index: 1;
+    }
+
+    .navbar-brand {
+        padding-left: 0;
+    }
+
+    .navbar-toggler {
+        width: 80px;
+        padding: 2% 2% 2% 2%;
+        margin-left: 550px;
+    }
+
+    .intro {
+        padding: 0;
+    }
+
+    .title-row {
+        padding-top: 200px;
+        padding-bottom: 700px;
+        background-color: #003C43;
     }
     
     .title-image {
         width: 40%;
-        margin-left: 20%;
+        margin-left: 28%;
         margin-top: 10%;
         position: absolute;
         text-align: center;
@@ -267,11 +328,15 @@ h2 {
 
     .Logo {
         text-align: center;
-        padding-left: 20%;
+        padding-left: 25%;
+    }
+
+    .download-button {
+        width: 40%;
     }
 
     .ios {
-        margin-left: 15%;
+        margin-left: 7%;
     }
 
     h1 {
@@ -290,8 +355,23 @@ h2 {
         width: 45%;
     }
 
+    #tv-series {
+        padding: 1% 1% 0 1%;
+        text-align: center;
+    }
+
     .tv-series-gif {
         width: 100%;
+    }
+
+    .series-intro {
+        font-size: 1.5em;
+    }
+
+    .carousel-item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    padding-top: 4%;
     }
 
     .btn-block {
@@ -301,4 +381,11 @@ h2 {
     .features-mobile {
         font-size: 1rem;
     }
+
+    #pricing {
+        padding: 4%;
+        text-align: center;
+    }
 }
+
+    
