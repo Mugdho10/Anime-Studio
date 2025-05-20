@@ -27,6 +27,10 @@ h1 {
     margin: 0% 3% 0% 3%;
 }
 
+.fa-brands {
+    font-size: 500px;
+}
+
 .container-fluid {
     padding: 0;
 }
@@ -281,7 +285,69 @@ h2 {
 }
 
 
+
+/* <!-- Call to Action --> */
+
+#cta {
+    background-color: #003C43;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.all-anime {
+    height: 300px;
+    padding: 30px 0 0 0;
+}
+
+.cta-heading {
+    font-family: "Montserrat-bold ", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    padding: 3%;
+}
+
+.first-cta-heading {
+    padding: 3% 5% 0 5%;
+}
+
+.second-cta-heading {
+    padding: 0 5% 3% 5%;
+}
+
+.final-download {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+
+
+/* <!-- Footer --> */
+
+#footer {
+    background-color: #006769;
+    padding: 1%;
+    text-align: center;
+}
+
+
+
+
+.social-media {
+    color: #003C43;
+    border-color: #fff;
+    height: 30px;
+    padding: 1%;
+}
+
+
+
+
+
+
 @media (max-width: 1000px) {
+    
+
     
     #title {
         padding: 0;
@@ -310,6 +376,7 @@ h2 {
 
     .intro {
         padding: 0;
+        text-align: center;
     }
 
     .title-row {
@@ -327,8 +394,9 @@ h2 {
     }
 
     .Logo {
-        text-align: center;
-        padding-left: 25%;
+        padding:0%;
+        margin: 0%;
+        height: 250px;
     }
 
     .download-button {
@@ -340,9 +408,22 @@ h2 {
     }
 
     h1 {
-        font-size: 2.5rem;
-        padding-bottom: 3%;
+        font-size: 4rem;
+        padding: 2% 3%;
         text-align: center;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        padding: 0 0 2% 0;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    p {
+        font-size: 1.5rem;
     }
 
     .anime-logo {
@@ -385,6 +466,10 @@ h2 {
     #pricing {
         padding: 4%;
         text-align: center;
+    }
+
+    .plans {
+        font-size: 2rem;
     }
 }
 
