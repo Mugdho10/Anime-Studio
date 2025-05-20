@@ -260,8 +260,7 @@ h2 {
     font-weight: 1;
 }
 
-.btn-dark {
-    background-color: goldenrod;
+.button-premium {
     color: black;
     background: #d9cb34;
     background-image: -webkit-linear-gradient(top, #d9cb34, #b8842b);
@@ -272,6 +271,7 @@ h2 {
 }
 
 .button-standard {
+    color: black;
     background: #ede8b9;
     background-image: -webkit-linear-gradient(top, #ede8b9, #a8a49f);
     background-image: -moz-linear-gradient(top, #ede8b9, #a8a49f);
