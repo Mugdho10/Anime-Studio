@@ -210,6 +210,20 @@ h2 {
 }
 
 
+/* Wallpapers */
+
+#wallpapers {
+    background-color: #003C43;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.wall-char {
+    height: 350px;
+}
+
+
+
 /* Pricing */
 
 #pricing {
@@ -381,7 +395,7 @@ h2 {
 
     .title-row {
         padding-top: 200px;
-        padding-bottom: 700px;
+        padding-bottom: 800px;
         background-color: #003C43;
     }
     
@@ -404,7 +418,7 @@ h2 {
     }
 
     .ios {
-        margin-left: 7%;
+        margin-left: 50px;
     }
 
     h1 {
@@ -460,7 +474,7 @@ h2 {
     }
 
     .features-mobile {
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 
     #pricing {
@@ -469,7 +483,7 @@ h2 {
     }
 
     .plans {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 }
 
