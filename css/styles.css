@@ -36,7 +36,11 @@ p {
     padding-bottom: 5%;
     size: 3rem;
     color: #85E6C5;
-    font-weight: 700;
+}
+
+#title .home-text {
+    font-weight: 800;
+    text-align: center;
 }
 
 #movies, #wallpapers {
@@ -334,9 +338,9 @@ p {
 
 
 .social-media {
-    border-color: #fff;
     height: 30px;
     padding: 1%;
+    color: #003C43;
 }
 
 
