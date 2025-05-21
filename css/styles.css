@@ -210,6 +210,22 @@ h2 {
 }
 
 
+
+/* Movies */
+
+#movies {
+    background-color: #006769;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.poster {
+    height: 450px;
+    padding-top: 20px;
+}
+
+
+
 /* Wallpapers */
 
 #wallpapers {
@@ -219,7 +235,7 @@ h2 {
 }
 
 .wall-char {
-    height: 350px;
+    height: 400px;
 }
 
 
@@ -473,8 +489,13 @@ h2 {
         padding: 0 10%;
     }
 
+    .poster {
+    height: 1000px;
+    }
+
     .features-mobile {
         font-size: 1.3rem;
+        color: black;
     }
 
     #pricing {
