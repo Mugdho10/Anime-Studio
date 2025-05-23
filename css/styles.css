@@ -68,6 +68,7 @@ p {
 
 .download-button {
     margin: 0% 3% 0% 3%;
+    font-size: 1.5rem;
 }
 
 .fa-brands {
@@ -404,6 +405,7 @@ p {
 
     .download-button {
         width: 40%;
+        font-size: 2rem;
     }
 
     .ios {
